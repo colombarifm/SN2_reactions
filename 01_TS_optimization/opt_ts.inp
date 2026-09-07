@@ -1,0 +1,11 @@
+! xtb2 optts verytightscf alpb(water)
+% geom 
+  maxiter 500 
+  maxstep 0.05 
+  trust -0.05 
+  convergence tight 
+  inhess true 
+  recalc_hess 10
+  constraints { A 5 0 4 C } end
+end
+* xyzfile -1 1 ts_guess.xyz
