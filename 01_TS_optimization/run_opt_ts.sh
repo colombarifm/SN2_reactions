@@ -14,3 +14,5 @@ export OMP_NUM_THREADS=${SLURM_NTASKS_PER_CORE}
 orca opt_ts.inp > opt_ts.out
 
 orca freq_ts.inp > freq_ts.out
+
+orca_pltvib freq_ts.hess 6
