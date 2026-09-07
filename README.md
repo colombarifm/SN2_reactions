@@ -17,6 +17,6 @@ Step 5 used the wB97x-V/def2-TZVPP method to get accurate final energies.
 
 Final free energy values for the stationary points are obtained using:
 
-dG = Eel + dThermo
+G = Eel + G_{corr}
 
 
