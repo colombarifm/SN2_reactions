@@ -17,6 +17,6 @@ Step 5 used the wB97x-V/def2-TZVPP method to get accurate final energies.
 
 Final free energy values for the stationary points are obtained using:
 
-$G_{total} = E_{el}^{DFT} + G_{corr}$^{XTB}
+$G_{total} = E_{el}^{DFT} + G_{corr}^{XTB}$
 
-$G_{total} = E_{el}^{DFT} + E_{ZPE} + E_{thermal} + k_{B}T - TS_{total}
+$G_{total} = E_{el}^{DFT} + E_{ZPE} + E_{thermal} + k_{B}T - TS_{total}$
