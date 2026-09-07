@@ -1,0 +1,2 @@
+! wB97x-V def2-TZVPP def2/J RIJCOSX VeryTightSCF SMD(water)
+* xyzfile -1 1 ../03_R-P_optimization/opt_P.xyz
