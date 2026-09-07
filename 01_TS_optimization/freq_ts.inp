@@ -1,2 +1,2 @@
 ! xtb2 verytightscf alpb(water) numfreq
-* xyzfile -1 1 optts.xyz
+* xyzfile -1 1 opt_ts.xyz
