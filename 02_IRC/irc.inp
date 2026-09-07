@@ -1,0 +1,8 @@
+! xtb2 verytightscf alpb(water) irc
+% irc direction both 
+  maxiter 50 
+  Scale_Displ_SD_Corr 0.5 
+  TolRMSG 0.0003 
+  inithess read hess_filename "../01_TS_optimization/freq_ts.hess"
+end
+* xyzfile -1 1 ../01_TS_optimization/opt_ts.xyz
