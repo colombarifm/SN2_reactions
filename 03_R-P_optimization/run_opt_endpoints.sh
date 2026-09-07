@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=opt_ts
+#SBATCH --job-name=opt_RP
 #SBATCH --partition=cpu
 #SBATCH --time=00:10:00
 #SBATCH --mem=4G
