@@ -1,0 +1,10 @@
+! xtb2 opt verytightscf alpb(water)
+% geom 
+  maxiter 500 
+  maxstep 0.05 
+  trust -0.05 
+  convergence tight 
+  constraints { A 5 0 4 C } end
+  scan B 5 0 = 4.0, 1.5, 26 end
+end
+* xyzfile -1 1 ../initial_structures/ch3ch2br_cl.xyz
