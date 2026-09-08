@@ -6,7 +6,7 @@
 
 The idea is :
 
-1. Present a simple TS search for a basic 1D reaction coordinate
+1. Present a simple TS search for a basic 1D reaction coordinate [`00_relaxed_scan`](./00_relaxed_scan)
 2. Run a TS optimization and characterization
 3. Run an IRC calculation and extract reactant and product structures
 4. Reoptimize and characteriza the endpoints
