@@ -1,8 +1,8 @@
 # SN_reactions
 
-Tutorial for SN2 reaction modeling with ORCA.
+## This repository contains a tutorial for SN2 reaction modeling with ORCA.
 
-This is for didatic purposes only!
+*This is for didactic purposes only!*
 
 The idea is :
 
@@ -12,11 +12,17 @@ The idea is :
 4. Reoptimize and characteriza the endpoints
 5. Run a final electronic energy calculation with a higher level DFT
 
-Steps 1-4 are calculated using the semiemmpirical GFN2-xTB level. This yields good geometries and thermostatistical corrections.
-Step 5 used the wB97x-V/def2-TZVPP method to get accurate final energies.
+Steps 1-4 are calculated using the semiempirical quantum chemistry GFN2-xTB method. 
+This yields good geometries and thermostatistical corrections with a very low computational cost.
+Step 5 used the wB97x-V/def2-TZVPP method to get accurate final energies for each stationary point.
 
-Final free energy values for the stationary points are obtained using:
+Final free energy values are then obtained using:
 
 $G_{total} = E_{el}^{DFT} + G_{corr}^{XTB}$
 
 $G_{total} = E_{el}^{DFT} + E_{ZPE} + E_{thermal} + k_{B}T - TS_{total}$
+
+## Repository organization:
+
+* [`initial_structures`](./initial_structures): contains the XYZ structures for different SN2 reaction starting structures
+* [`00_relaxed_scan`](./00_relaxed_scan): contains the ORCA input file for the relaxed scan along the 1D reaction coordinate and the slurm submission file for the job
